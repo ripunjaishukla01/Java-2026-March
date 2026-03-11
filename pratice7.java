@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Shape {
     public void area (){
         System.out.println("display area");
@@ -11,5 +13,6 @@ class Triangle extends Shape{
 class EquilaterialTriangle extends Triangle{
  public void area (int l,int h){
         System.out.println(1/2*l*h);
+        Scanner
  }
 }
